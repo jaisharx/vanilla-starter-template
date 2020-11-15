@@ -1,9 +1,10 @@
 {
   "name": "vanilla-starter-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "vanilla starter template configured with parcel",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "clean": "shx rm -rf .cache dist"
   },
   "keywords": [],
   "author": "jai-sharma <sendtojsharma@gmail.com>",
@@ -12,6 +13,7 @@
     "parcel": "^1.12.4"
   },
   "devDependencies": {
-    "sass": "^1.29.0"
+    "sass": "^1.29.0",
+    "shx": "^0.3.3"
   }
 }
