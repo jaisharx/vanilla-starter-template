@@ -1,0 +1,17 @@
+{
+  "name": "vanilla-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "jai-sharma <sendtojsharma@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
+}
