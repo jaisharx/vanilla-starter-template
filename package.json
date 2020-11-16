@@ -4,6 +4,7 @@
   "description": "vanilla starter template configured with parcel",
   "scripts": {
     "start": "parcel index.html --open",
+    "build": "parcel build index.html --public-url .",
     "clean": "shx rm -rf .cache dist"
   },
   "keywords": [],
