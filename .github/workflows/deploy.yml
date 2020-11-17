@@ -6,9 +6,9 @@ name: Deploy to gh-pages
 # events but only for the master branch
 on:
   push:
-    branches: [ main ]
+    branches: [ branch_name ]
   pull_request:
-    branches: [ main ]
+    branches: [ branch_name ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
