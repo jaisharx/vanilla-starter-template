@@ -1,5 +1,18 @@
+/*
+    Author  : jaisharx <sendtojsharma@gmail.com>
+    Date    : 25-01-2021
+    Purpose : ALL STYLES
+*/
 
-h1 {
-    margin: 2rem 0;
-    text-align: center;
-}
+// base styles
+@import './base/base';
+
+// component styles
+@import './components/navbar';
+@import './components/footer';
+@import './components/button';
+
+
+
+// page styles
+@import './pages/home';
