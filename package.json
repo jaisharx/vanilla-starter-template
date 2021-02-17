@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "vanilla starter template configured with parcel",
   "scripts": {
-    "start": "parcel serve pages/*.html --open",
-    "build": "parcel build pages/*.html --public-url .",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --public-url .",
     "clean": "shx rm -rf .cache dist"
   },
   "keywords": [],
